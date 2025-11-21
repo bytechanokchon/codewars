@@ -1,8 +1,8 @@
-using System;
 using System.Text;
 
 namespace CodeWars.Solutions;
 
+// From: https://www.codewars.com/kata/5208f99aee097e6552000148
 public class BreakCamel
 {
     public static string Solution(string str)
