@@ -2,6 +2,7 @@ using System.Text;
 
 namespace CodeWars.Solutions;
 
+// From: https://www.codewars.com/kata/5412509bd436bd33920011bc
 public class CreditCardMask
 {
     public static string Solutions(string cc)
