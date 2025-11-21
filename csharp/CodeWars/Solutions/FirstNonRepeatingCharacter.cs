@@ -2,17 +2,18 @@ using System.Text;
 
 namespace CodeWars.Solutions;
 
+// From: https://www.codewars.com/kata/52bc74d4ac05d0945d00054e
 public class FirstNonRepeatingCharacter
 {
     public static string Solution(string s)
     {
         StringBuilder resultBuilder = new StringBuilder();
-        
+
         for (int currentIndex = 0; currentIndex < s.Length; currentIndex++)
         {
             bool currentHasDupplicate = false;
             char currentCharacter = s[currentIndex];
-            
+
             // check nexts
             for (int nextIndex = (currentIndex + 1); nextIndex < s.Length; nextIndex++)
             {
